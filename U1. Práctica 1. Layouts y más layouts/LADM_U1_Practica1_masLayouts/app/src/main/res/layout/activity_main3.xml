@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/email"
+    android:padding="20dp"
+    tools:context=".MainActivity3">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Reservacion"
+        android:textSize="32sp"
+        android:layout_marginTop="32dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:text="Lugar"
+        android:textSize="18sp"
+        android:layout_marginTop="92dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:padding="10dp"
+        android:background="@color/white"
+        android:hint="nombre del lugar"
+        android:textSize="18sp"
+        android:id="@+id/txtReporte"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Llegada"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:hint="Hora de llegada"
+        android:background="@color/white"
+        android:inputType="date"
+        android:id="@+id/txtViaje"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Salida"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:hint="Hora de salida"
+        android:inputType="date"
+        android:id="@+id/txtTipo"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Personas"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:hint="Numero de personas"
+        android:inputType="number"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:id="@+id/txtUbicacion"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reservar"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:id="@+id/reservar"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salir"
+        android:padding="10dp"
+        android:textSize="18dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/salir"/>
+
+</LinearLayout>
